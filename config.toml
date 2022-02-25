@@ -86,11 +86,11 @@ theme = "FeelIt"
   #
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "FeelIt"
+    title = "Hai Le"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
+    svgFavicon = "/images/fav.png"
     # Android browser theme color
     themeColor = "#ffffff"
     # Safari mask icon color

@@ -397,7 +397,7 @@ theme = "FeelIt"
       fullscreen = true
     #
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -439,13 +439,13 @@ theme = "FeelIt"
       [params.page.comment.vssue]
         #
 
-        enable = false
+        enable = true
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
-        platform = ""
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        platform = "github"
+        owner = "randomwalk94"
+        repo = "academia"
+        clientId = "61cb6d3f060fdb7e1aa6"
+        clientSecret = "6daa2f7549fbc38b0ebc09cfb9431d65519fd76b"
       # Gitalk comment config
       [params.page.comment.gitalk]
         #

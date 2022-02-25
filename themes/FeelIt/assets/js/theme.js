@@ -651,7 +651,7 @@ class Theme {
             $viewComments.style.display = 'block';
         }
         const $fixedButtons = document.getElementById('fixed-buttons');
-        const ACCURACY = 20, MINIMUM = 100;
+        const ACCURACY = 0, MINIMUM = 100;
         window.addEventListener('scroll', () => {
             this.newScrollTop = this.util.getScrollTop();
             const scroll = this.newScrollTop - this.oldScrollTop;

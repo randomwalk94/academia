@@ -3,7 +3,7 @@ baseURL = "https://haivle.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Hai's Perfonal Website"
+title = "Hai Le"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "FeelIt"
@@ -51,7 +51,7 @@ theme = "FeelIt"
   #
   version = "1.0.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "This is My Personal Website"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
@@ -181,7 +181,7 @@ theme = "FeelIt"
     paramTitle = "Personal Information"
     # general description of your site
     # can be write with markdown style
-    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+    description = "This is my personal website to announce my **research** and **teaching** information."
     # description of your status
     [[params.about.status]]
       faIcon = "fas fa-building"
@@ -197,14 +197,14 @@ theme = "FeelIt"
       desc = "Ann Arbor, Michigan"
     # description of your parameter
     [[params.about.parameter]]
-      language = "UI/UX"
-      level = "80"
+      language = "Humor"
+      level = "50"
     [[params.about.parameter]]
-      language = "HTML"
-      level = "70"
+      language = "Football"
+      level = "50"
     [[params.about.parameter]]
-      language = "Go"
-      level = "60"
+      language = "Go (board game)"
+      level = "50"
 
   # Home page config
   [params.home]
@@ -220,7 +220,7 @@ theme = "FeelIt"
       #
       title = "Hai Le"
       # subtitle shown in home page
-      subtitle = "This is My New Hugo Site"
+      subtitle = "My Website for Research and Teaching"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links

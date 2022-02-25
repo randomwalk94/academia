@@ -202,7 +202,7 @@ theme = "FeelIt"
     [[params.about.status]]
       title = "Location"
       faIcon = "fas fa-map-marker-alt"
-      desc = "Ann Arbor, Michigan"
+      desc = "Ann Arbor, MI"
     # description of your parameter
     [[params.about.parameter]]
       language = "Humor"
@@ -228,7 +228,7 @@ theme = "FeelIt"
       #
       title = "Hai Le"
       # subtitle shown in home page
-      subtitle = "My Website for Research and Teaching"
+      subtitle = "An Amateur Mathematician"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links

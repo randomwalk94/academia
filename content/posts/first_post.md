@@ -1,92 +1,74 @@
 ---
-title: "Demo Post"
-subtitle: ""
-date: 2020-09-19T08:57:07+07:00 
+title: "My First Post"
+date: 2022-02-25T14:39:39-05:00
 draft: false
-author: "Khusika"
-description: "Things I Do On Focal Fossa"
-
-tags: ["ubuntu"]
-categories: ["blogs"]
-
+tags: ["random"]
+categories: ["Miscellaneous"]
 toc:
-  enable: true
+    enable: false
 math:
-  enable: false
-lightgallery: false
-license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    enable: true
+comment: 
+    enable: false
+description: "This is the first post of this website."
+featuredImage: "/images/postimg/banner_firstpost.jpeg"
+featuredImagePreview: "/images/postimg/banner_firstpost.jpeg"
+
 ---
-
-Ubuntu 20.04 was released on 2020 and it brings plenty of new features. In this article, i will share some of Focal Fossa configuration for personal use.
 <!--more-->
+This is the first post of this website. The website was powered by [**Hugo**](https://gohugo.io/) using [**FeelIt theme**](https://feelit.khusika.com/) developed by [**Khusika**](https://khusika.com/). All of the contents are hosted in [:(fab fa-brands fa-github):**GitHub**](https://github.com/) and deployed by [**Netlify**](https://netlify.com/). The theme is fully customizable and I can do a lot of interesting stuff to it too.
 
-## Hide The User Login List
-Hiding this feature is good choice if you want to increase security on the login screen. I always do this since Ubuntu 14.04. According to the [tipsonubuntu.com](https://tipsonubuntu.com/2020/05/21/hide-user-list-ubuntu-20-04-login-screen/), this is the only way to hide the user list in login screen of Focal Fossa which is different to the older version of Ubuntu.
 
-1. Hiding the User List
-The main instruction is to disable-user-list in gnome.login-screen. In short, just copy the command below in your Terminal 
-```bash
-sudo -i
-xhost +SI:localuser:gdm
-su gdm -l -s /bin/bash
-export DISPLAY=:0
-gsettings set org.gnome.login-screen disable-user-list true
-```
-2. Restore to the default changes
-```bash
-sudo -i
-xhost +SI:localuser:gdm
-su gdm -l -s /bin/bash
-export DISPLAY=:0
-gsettings reset org.gnome.login-screen disable-user-list
-```
+Here is some math:
+\\[\zeta\left( 2\right)=1+\frac{1}{2^2}+\frac{1}{3^2}+\cdots=\frac{\pi^2}{6}. \\]
 
-## Hide GRUB Menu Selection
-This is the most important for me if you are using dual boot in your PC. In my opinion, boot selection in every boot will cost time about 10-30s at the boot time. This can be done by disabling OS Prober in _/etc/default/grub_ with _GRUB_DISABLE_OS_PROBER_. According to the [ubuntu community](https://help.ubuntu.com/), this entry is used to prevent GRUB from adding the results of os-prober to the menu. A value of "true" disables the os-prober check of other partitions for operating systems, including Windows, Linux, OSX and Hurd, during execution of the update-grub command.
+I can write chemical reactions like this:
+\\[ \ce{Li^6_3 + n -> He^4_2 + H^3_1} \\]
 
-1. First of all you need to open Terminal then follow this command below
-```bash
-sudo -H gedit /etc/default/grub
-```
-2. Then add this flag below on any line, after that save the file & exit
-```markdown
-GRUB_DISABLE_OS_PROBER=true
-```
-3. Back to the Terminal, then update the grub setting
-```bash
-sudo update-grub
-```
+I can also draw cool diagrams like this:
+{{< mermaid >}}
+graph LR;
+    A[All] -->|of| B(these)
+    B --> C{objects}
+    C -->|are| D[homeomorphic]
+    C -->|to| E[each other]
+{{< /mermaid >}}
 
-## Windows Like "click-action"
-This config is good if you want Ubuntu docks looks like Windows. You can set it manually from Terminal then type this command below.
-```bash
-gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-overview'
-```
+or like this:
+{{< mermaid >}}
+gantt
+    dateFormat  YYYY-MM-DD
+    title The Jurassic Period
+    section What I want to do
+    Sleep            :done,    des1, 2014-01-06,2014-01-08
+    Sleep               :active,  des2, 2014-01-09, 3d
+    Sleep               :         des3, after des2, 5d
+    Play games               :         des4, after des3, 5d
+    section What I hate to do
+    Wash dishes :crit, done, 2014-01-06,24h
+    Wash dishes          :crit, done, after des1, 2d
+    Wash dishes             :crit, active, 3d
+    Clean bathroom      :crit, 5d
+    clean kitchen        :2d
+    Wipe the floor           :1d
+{{< /mermaid >}}
 
-You can revert to the default option by running this command below.
-```bash
-gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
-```
-
-## Hide Home Folder & Trash Icons from Desktop
-In Ubuntu 20.04, the home folder and trash icon are displayed on the desktop by default. For those who like to see a clean desktop from these two icons, do the steps below in Terminal.
-
-1. This command below will hide home folder icon from the desktop
-```bash
-gsettings set org.gnome.shell.extensions.desktop-icons show-home false
-```
-
-2. This command below will hide trash icon from the desktop
-```bash
-gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
-```
-
-You can revert to the default option by running this commands below.
-```bash
-gsettings reset org.gnome.shell.extensions.desktop-icons show-home
-gsettings reset org.gnome.shell.extensions.desktop-icons show-trash
-```
-
-## References
-- [Tips on Ubuntu](https://tipsonubuntu.com/), 2020. **[[Quick Fix] Hide the User List in Ubuntu 20.04 Login Screen](https://tipsonubuntu.com/2020/05/21/hide-user-list-ubuntu-20-04-login-screen/)**.
-- [Ubuntu Community](https://help.ubuntu.com/), 2019. **[Grub2/Setup](https://help.ubuntu.com/community/Grub2/Setup)**.
+or a _git graph_:
+{{< mermaid >}}
+gitGraph:
+options
+{
+    "nodeSpacing": 100,
+    "nodeRadius": 10
+}
+end
+    commit
+    branch newbranch
+    checkout newbranch
+    commit
+    commit
+    checkout master
+    commit
+    commit
+    merge newbranch
+{{< /mermaid >}}

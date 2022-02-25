@@ -224,7 +224,7 @@ theme = "FeelIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/logo.webp"
+      avatarURL = "/images/logo.png"
       #
       title = "Hai Le"
       # subtitle shown in home page

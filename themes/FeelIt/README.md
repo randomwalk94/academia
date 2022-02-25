@@ -122,7 +122,7 @@ I hope you will FeelIt ❤️!
 
 * ### [Theme Documentation - Built in Shortcodes](https://feelit.khusika.com/theme-documentation-built-in-shortcodes/)
 
-* ### [Theme Documentation - Extended Shortocodes](https://feelit.khusika.com/theme-documentation-extended-shortcodes/)
+* ### [Theme Documentation - Extended Shortcodes](https://feelit.khusika.com/theme-documentation-extended-shortcodes/)
 
 * ### [Basic Markdown Syntax](https://feelit.khusika.com/basic-markdown-syntax/)
 
@@ -162,6 +162,9 @@ FeelIt supports the following languages:
 * Serbian
 * Vietnamese
 * Simplified Chinese
+* Hungarian
+* Czech
+* Persian
 * [Contribute with a new language](https://github.com/khusika/FeelIt/pulls)
 
 [Languages Compatibility](https://feelit.khusika.com/theme-documentation-basics/#language-compatibility)

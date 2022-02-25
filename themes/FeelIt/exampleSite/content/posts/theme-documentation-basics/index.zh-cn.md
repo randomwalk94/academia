@@ -320,6 +320,43 @@ hugo
     # RSS 文章数目
     rss = 10
 
+  # {{< version 1.0.2 >}}
+  # 关于页面配置
+  [params.about]
+    # 是否启用关于页面的配置文件
+    # 依赖于取决于 .Site.Params.home.profile.enable
+    enable = true
+    # 是否启用参数布局
+    param = true
+    # 参数布局的标题
+    paramTitle = "个人信息"
+    # 您网站的一般描述
+    # 可以用markdown样式写
+    description = "[FeelIt](https://github.com/khusika/FeelIt) 是一个由 [Khusika](https://khusika.com) 开发的**简洁**、**优雅**且**高效**的 [Hugo](https://gohugo.io/) 博客主题。 它的原型基于 [LoveIt 主题](https://github.com/dillonzq/LoveIt), [LeaveIt 主题](https://github.com/liuzc/LeaveIt), 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。"
+    # 你的状态描述
+    [[params.about.status]]
+      faIcon = "fas fa-building"
+      title = "公司"
+      desc = "FeelIt"
+    [[params.about.status]]
+      faIcon = "fas fa-briefcase fa-fw"
+      title = "职业"
+      desc = "自由职业者"
+    [[params.about.status]]
+      title = "地点"
+      faIcon = "fas fa-map-marker-alt"
+      desc = "地球"
+    # 参数说明
+    [[params.about.parameter]]
+      language = "UI/UX"
+      level = "80"
+    [[params.about.parameter]]
+      language = "HTML"
+      level = "70"
+    [[params.about.parameter]]
+      language = "Go"
+      level = "60"
+
   # 主页配置
   [params.home]
     # {{< version 0.2.0 >}} RSS 文章数目
@@ -428,6 +465,7 @@ hugo
     Bilibili = ""
     Email = "xxxx@xxxx.com"
     Resume = "" #goo.gl id {{< version 1.0.0 >}}
+    xda = "" {{< version 1.0.2 >}}
     RSS = true # {{< version 0.2.0 >}}
 
   # {{< version 0.2.0 changed >}} 文章页面配置
@@ -786,7 +824,7 @@ hugo
 而 `hugo` 的默认运行环境是 `production`.
 
 由于本地 `development` 环境的限制,
-**评论系统**, **CDN** 和 **fingerprint** 不会在 `development` 环境下启用.
+**评论系统**, **CDN**, **fingerprint** 和 **PWA** 不会在 `development` 环境下启用.
 
 你可以使用 `hugo serve -e production` 命令来开启这些特性.
 {{< /admonition >}}
@@ -901,6 +939,7 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
 | 塞尔维亚语 | `sr` | `sr` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
 | 越南语 | `vi` | `vi` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
 | 简体中文 | `zh-cn` | `zh-CN` | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| 波斯语 | `fa` | `fa` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
 
 ### 4.2 基本配置
 

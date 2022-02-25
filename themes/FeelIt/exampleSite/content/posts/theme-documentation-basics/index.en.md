@@ -317,6 +317,42 @@ Please open the code block below to view the complete sample configuration :(far
     # amount of RSS pages
     rss = 10
 
+  # {{< version 1.0.2 >}}
+  [params.about]
+    # whether to enable profile on about page
+    # depends on .Site.Params.home.profile.enable
+    enable = true
+    # whether to enable param layout
+    param = true
+    # title for param layout
+    paramTitle = "Personal Information"
+    # general description of your site
+    # can be write with markdown style
+    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+    # description of your status
+    [[params.about.status]]
+      faIcon = "fas fa-building"
+      title = "Company"
+      desc = "FeelIt"
+    [[params.about.status]]
+      faIcon = "fas fa-briefcase fa-fw"
+      title = "Occupation"
+      desc = "Freelancer"
+    [[params.about.status]]
+      title = "Location"
+      faIcon = "fas fa-map-marker-alt"
+      desc = "Earth"
+    # description of your parameter
+    [[params.about.parameter]]
+      language = "UI/UX"
+      level = "80"
+    [[params.about.parameter]]
+      language = "HTML"
+      level = "70"
+    [[params.about.parameter]]
+      language = "Go"
+      level = "60"
+
   # Home page config
   [params.home]
     # {{< version 0.2.0 >}} amount of RSS pages
@@ -425,6 +461,7 @@ Please open the code block below to view the complete sample configuration :(far
     Bilibili = ""
     Email = "xxxx@xxxx.com"
     Resume = "" #goo.gl id {{< version 1.0.0 >}}
+    xda = "" {{< version 1.0.2 >}}
     RSS = true # {{< version 0.2.0 >}}
 
   # {{< version 0.2.0 changed >}} Page config
@@ -780,7 +817,7 @@ Note that some of these parameters are explained in details in other sections of
 Default environments are `development` with `hugo serve` and `production` with `hugo`.
 
 Due to limitations in the local `development` environment,
-the **comment system**, **CDN** and **fingerprint** will not be enabled in the `development` environment.
+the **comment system**, **CDN**, **fingerprint** and **PWA** will not be enabled in the `development` environment.
 
 You could enable these features with `hugo serve -e production`.
 {{< /admonition >}}
@@ -895,6 +932,9 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 | Serbian              | `sr`      | `sr`                  | :(far fa-square fa-fw):       | :(far fa-square fa-fw):       |
 | Vietnamese           | `vi`      | `vi`                  | :(far fa-square fa-fw):       | :(far fa-check-square fa-fw): |
 | Simplified Chinese   | `zh-cn`   | `zh-CN`               | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| Hungarian            | `hu`      | `hu`                  | :(far fa-square fa-fw):       | :(far fa-square fa-fw):       |
+| Czech                | `cs`      | `cs`                  | :(far fa-square fa-fw):       | :(far fa-square fa-fw):       |
+| Persian              | `fa`      | `fa`                  | :(far fa-square fa-fw):       | :(far fa-square fa-fw):       |
 
 ### 4.2 Basic Configuration
 

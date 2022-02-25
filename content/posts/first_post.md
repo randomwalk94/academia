@@ -47,7 +47,7 @@ gantt
     Wash dishes          :crit, done, after des1, 2d
     Wash dishes             :crit, active, 3d
     Clean bathroom      :crit, 5d
-    clean kitchen        :2d
+    Clean kitchen        :2d
     Wipe the floor           :1d
 {{< /mermaid >}}
 
@@ -70,3 +70,5 @@ end
     commit
     merge newbranch
 {{< /mermaid >}}
+
+And guests can comment on my posts too (powered by [:(fas fa-solid fa-comments):**Vssue**](https://vssue.js.org/))

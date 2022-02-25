@@ -357,7 +357,7 @@ theme = "FeelIt"
       # whether to enable the table of the contents
       enable = false
       #
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     #

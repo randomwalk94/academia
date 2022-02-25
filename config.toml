@@ -434,7 +434,7 @@ theme = "FeelIt"
 
         enable = false
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "https-haivle-com"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
       [params.page.comment.vssue]
         #
@@ -443,7 +443,7 @@ theme = "FeelIt"
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         platform = "github"
         owner = "randomwalk94"
-        repo = "academia"
+        repo = "comment"
         clientId = "61cb6d3f060fdb7e1aa6"
         clientSecret = "6daa2f7549fbc38b0ebc09cfb9431d65519fd76b"
       # Gitalk comment config

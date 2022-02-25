@@ -8,8 +8,6 @@ toc:
     enable: false
 math:
     enable: true
-comment: 
-    enable: false
 description: "This is the first post of this website."
 featuredImage: "/images/postimg/banner_firstpost.jpeg"
 featuredImagePreview: "/images/postimg/banner_firstpost.jpeg"

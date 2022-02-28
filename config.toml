@@ -258,12 +258,12 @@ theme = "FeelIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
+    GitHub = "randomwalk94"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -320,12 +320,12 @@ theme = "FeelIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "hvl2 at psu dot edu"
     Resume = "" #goo.gl id
 
     xda = ""
 
-    RSS = true #
+    RSS = false #
 
 
   #
@@ -398,10 +398,10 @@ theme = "FeelIt"
     #
     [params.page.share]
       enable = false
-      Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = true
+      Twitter = false
+      Facebook = false
+      Linkedin = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -409,19 +409,19 @@ theme = "FeelIt"
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
-      Evernote = true
+      Evernote = false
       Skype = false
       Trello = false
       Mix = false

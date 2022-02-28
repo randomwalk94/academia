@@ -652,7 +652,7 @@ class Theme {
         }
         const $fixedButtons = document.getElementById('fixed-buttons');
         const ACCURACY = 5, MINIMUM = 100;
-        window.addEventListener('scroll', () => {
+/*        window.addEventListener('scroll', () => {
             this.newScrollTop = this.util.getScrollTop();
             const scroll = this.newScrollTop - this.oldScrollTop;
             const isMobile = this.util.isMobile();
@@ -683,7 +683,7 @@ class Theme {
             }
             for (let event of this.scrollEventSet) event();
             this.oldScrollTop = this.newScrollTop;
-        }, false);
+        }, false);*/
     }
 
     onResize() {

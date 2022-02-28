@@ -139,7 +139,7 @@ theme = "FeelIt"
       #
       typeit = false
       #
-      rss = true
+      rss = false
 
   # Footer config
   [params.footer]
@@ -153,7 +153,7 @@ theme = "FeelIt"
     #
     author = true
     # Site creation time
-    since = 2019
+    since = 2022
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -166,7 +166,7 @@ theme = "FeelIt"
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = 10
+    # rss = 10
 
   #
   [params.list]
@@ -175,7 +175,7 @@ theme = "FeelIt"
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
-    rss = 10
+    # rss = 10
 
   #
 
@@ -217,7 +217,7 @@ theme = "FeelIt"
   # Home page config
   [params.home]
     #
-    rss = 10
+    # rss = 10
     # Home page profile
     [params.home.profile]
       enable = true

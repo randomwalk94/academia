@@ -9,8 +9,8 @@ toc:
 math:
     enable: true
 description: "This is the first post of this website."
-featuredImage: "/images/postimg/banner_firstpost.jpeg"
-featuredImagePreview: "/images/postimg/banner_firstpost.jpeg"
+featuredImage: "/images/postimg/banner-firstpost.jpeg"
+featuredImagePreview: "/images/postimg/banner-firstpost.jpeg"
 
 ---
 <!--more-->

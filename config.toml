@@ -566,7 +566,7 @@ theme = "FeelIt"
     #
     [params.analytics.goatcounter]
       # GoatCounter code
-      code = ""
+      code = "leviethai"
 
   #
   [params.cookieconsent]

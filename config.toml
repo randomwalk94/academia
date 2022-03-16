@@ -554,7 +554,7 @@ theme = "FeelIt"
 
   #
   [params.analytics]
-    enable = false
+    enable = true
     #
     [params.analytics.google]
       # ...

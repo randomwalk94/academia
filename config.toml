@@ -198,7 +198,7 @@ theme = "FeelIt"
     [[params.about.status]]
       faIcon = "fas fa-briefcase fa-fw"
       title = "Title"
-      desc = "Assistant Professor (NTT)"
+      desc = "Postdoctoral Assistant Professor"
     [[params.about.status]]
       title = "Location"
       faIcon = "fas fa-map-marker-alt"

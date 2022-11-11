@@ -20,5 +20,5 @@ Here are several things that I have always been eager to learn:
 3. I found this e-book [**_Physically Based Rendering: From Theory To Implementation_**](https://www.pbr-book.org/3ed-2018/contents) by chance and wanted to learn more about it at first sight. I always wonder how to simulate physics laws, how to represent real-world interactions in computers. Of course, my knowledge about this at the moment is `null`, so this is just going to be a side-project for me to kill some free time. I may need to learn C++ in the process though.
 4. Learn *machine learning*, *blockchain*, *data science*, etc., basically anything that will affect the future. Of course, the goal is not be an expert but to feel *literate*.
 
-Arghhhh, so many things to learn, and time is limited... but it is going to fine.
+Arghhhh, so many things to learn, and time is limited... but it is going to be fine.
 

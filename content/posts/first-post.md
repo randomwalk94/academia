@@ -75,19 +75,4 @@ And guests can comment on my posts too (powered by [:(fas fa-solid fa-comments):
 
 
 <script\>
-function ShowJoke()
-  {
-    var Joke = [
-    	'Joke1',
-    	'Joke2',
-    	'Joke3',
-    	'Joke4',
-    	'Joke5',
-    	'Joke6'
-    ];
-    var Pick = Math.floor(Math.random() * (Joke.length));
-    document.write(Joke[Pick]);
-  }
-  
-  document.addEventListener("load", ShowJoke());
 </script\>

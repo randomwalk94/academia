@@ -16,6 +16,7 @@ featuredImagePreview: "/images/postimg/banner-firstpost.jpeg"
 <!--more-->
 This is the first post of this website. The website was powered by [**Hugo**](https://gohugo.io/) using [**FeelIt theme**](https://feelit.khusika.com/) developed by [**Khusika**](https://khusika.com/). All of the contents are hosted in [:(fab fa-brands fa-github):**GitHub**](https://github.com/) and deployed by [**Netlify**](https://netlify.com/). The theme is fully customizable and I can do a lot of interesting stuff to it too.
 
+Aspiring actuary.
 
 Here is some math:
 \\[\zeta\left( 2\right)=1+\frac{1}{2^2}+\frac{1}{3^2}+\cdots=\frac{\pi^2}{6}. \\]
@@ -72,6 +73,7 @@ end
 {{< /mermaid >}}
 
 And guests can comment on my posts too (powered by [:(fas fa-solid fa-comments):**Vssue**](https://vssue.js.org/))
+
 
 
 <script\>

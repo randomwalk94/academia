@@ -228,7 +228,7 @@ theme = "FeelIt"
       #
       title = "Hai Le"
       # subtitle shown in home page
-      subtitle = "An Amateur Mathematician"
+      subtitle = "Knowing some math"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links

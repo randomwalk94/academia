@@ -194,15 +194,15 @@ theme = "FeelIt"
     [[params.about.status]]
       faIcon = "fas fa-building"
       title = "Institution"
-      desc = "University of Michigan"
+      desc = "Core Specialty"
     [[params.about.status]]
       faIcon = "fas fa-briefcase fa-fw"
       title = "Title"
-      desc = "Postdoctoral Assistant Professor"
+      desc = "Actuarial Analyst"
     [[params.about.status]]
       title = "Location"
       faIcon = "fas fa-map-marker-alt"
-      desc = "Ann Arbor, MI"
+      desc = "Chicago, IL"
     # description of your parameter
     [[params.about.parameter]]
       language = "Humor"

@@ -189,7 +189,7 @@ theme = "FeelIt"
     paramTitle = "Personal Information"
     # general description of your site
     # can be write with markdown style
-    description = "This is my personal website to announce my **research** and **teaching** activities. It is also a *blog*."
+    description = "This website is to announce stuff."
     # description of your status
     [[params.about.status]]
       faIcon = "fas fa-building"
